@@ -39,9 +39,6 @@ import javax.xml.transform.Templates;
 //credits - should be a single digit but greater than 0
 //
 public class Assignment3{
-	public static void main(String[] args) {
-		
-	}
 }
 class Course{
 	private int courseId;
@@ -342,6 +339,9 @@ public String convert(String s, int numRows) {
         for (int idx = 1; idx < sb.length; idx++)
             sb[0].append(sb[idx]);
         return sb[0].toString();
+}
+public static void main(String[] args) {
+	
 }
 //Q9. Explain Encapsulation with an example. (Write at least 30-40 words).
  Encapsulation is a process of wrapping code and data together into a single unit. For example, for a student, he has a name. The data is private and has getter and setter methods.We can make the class read-only or write-only. The data name can be hidden. It is easy to test.

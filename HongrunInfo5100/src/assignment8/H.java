@@ -32,10 +32,6 @@ public class H implements ItemListener{
     private JTextField textField_3;
     private JTextField textField_4;
   
- 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -49,16 +45,10 @@ public class H implements ItemListener{
 		});
 	}
  
-	/**
-	 * Create the application.
-	 */
 	public H() {
 		initialize();
 	}
  
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setFont(new Font("BLACK", Font.PLAIN, 22));
